@@ -1,7 +1,7 @@
 function menghitungKarakter(arr) {
   let karakter = {};
 
-  arr.forEach((num) => {
+  arr.map((num) => {
     if (karakter.hasOwnProperty(num)) {
       karakter[num] += 1;
     } else {
@@ -12,4 +12,4 @@ function menghitungKarakter(arr) {
   return karakter;
 }
 
-console.log(menghitungKarakter([]));
+console.log(menghitungKarakter(["hello"]));
