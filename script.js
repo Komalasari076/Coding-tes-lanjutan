@@ -12,4 +12,4 @@ function menghitungKarakter(arr) {
   return karakter;
 }
 
-console.log(menghitungKarakter("hello"));
+console.log(menghitungKarakter([]));
